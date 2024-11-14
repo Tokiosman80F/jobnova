@@ -1,4 +1,5 @@
 import SectionTitle from "../../common/SectionTitle";
+import About from "../../sections/home/About";
 import Banner from "../../sections/home/Banner";
 import Services from "../../sections/home/Services";
 
@@ -7,8 +8,9 @@ const Home = () => {
     <div>
       <Banner></Banner>
       <div className="container  mx-auto ">
-        <SectionTitle></SectionTitle>
+        <SectionTitle />
         <Services />
+        <About />
       </div>
     </div>
   );

@@ -14,6 +14,7 @@ import "swiper/css/scrollbar";
 
 // import required modules
 import { Navigation } from "swiper/modules";
+import SectionTitle from "../../common/SectionTitle";
 
 const servicesCollection = [
   { id: 1, image: service1, text: "Product Branding & Design" },
@@ -26,6 +27,11 @@ const servicesCollection = [
 const Services = () => {
   return (
     <div>
+      <SectionTitle
+        title="Trending Services"
+        subtitle="Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide."
+      />
+
       <Swiper
         slidesPerView={1}
         centeredSlides={false}
