@@ -1,9 +1,10 @@
 import { FaBookmark } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
 import { IoLocationSharp } from "react-icons/io5";
+import { Link } from "react-router-dom";
 import fb_icon from "../../assets/images/home/logo_fb.png";
 
-const JobOverview = () => {
+const JobOverviewCard = () => {
   return (
     <div className="max-w-sm bg-white border-2 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-4">
       {/* Part 1: Company logo and Action Buttons */}
@@ -23,12 +24,13 @@ const JobOverview = () => {
           >
             <FaBookmark className="text-gray-600" />
           </button>
-          <button
+          <Link
+            to="/job-detail"
             className="p-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all duration-200"
             aria-label="See Details"
           >
             <GoArrowUpRight />
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -64,4 +66,4 @@ const JobOverview = () => {
   );
 };
 
-export default JobOverview;
+export default JobOverviewCard;

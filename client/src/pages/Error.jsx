@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import error from "../assets/images/error/error_image.png";
 import logo from "../assets/images/error/logo__error.png";

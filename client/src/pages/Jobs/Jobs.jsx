@@ -1,12 +1,11 @@
-import React from "react";
 import HeroSection from "../../common/HeroSection";
-import JobOverview from "../../sections/jobs/JobOverview";
+import JobOverviewCard from "../../sections/jobs/JobOverviewCard";
 
 const Jobs = () => {
   return (
     <div>
       <HeroSection />
-      <JobOverview />
+      <JobOverviewCard />
     </div>
   );
 };
