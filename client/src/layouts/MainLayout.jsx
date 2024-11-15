@@ -1,11 +1,13 @@
+import { Outlet } from "react-router-dom";
+import Footer from "../common/Footer";
 import Navbar from "../components/Navbar";
-import Home from "../pages/Home/Home";
 
 const MainLayout = () => {
   return (
     <div className="font-sans">
       <Navbar />
-      <Home></Home>
+      <Outlet />
+      <Footer></Footer>
     </div>
   );
 };

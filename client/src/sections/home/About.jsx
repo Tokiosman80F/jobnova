@@ -8,7 +8,7 @@ import SectionTitle from "../../common/SectionTitle";
 const About = () => {
   return (
     <section className="my-16 py-16 px-4 md:px-16">
-      <div className="flex flex-col md:flex-row items-center gap-10 space-y-8 md:space-y-0">
+      <div className="flex flex-col md:flex-row items-start gap-10 space-y-8 md:space-y-0">
         {/* Left Side */}
         <div className="relative w-full md:w-1/2 flex flex-col items-center md:items-start space-y-4">
           {/* Large Image with Hover Animation */}
